@@ -1,0 +1,105 @@
+.img-1 {
+    background-image: url(img/traiteur-1.jpeg);
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+.img-2 {
+    background-image: url(img/dessert.jpeg);
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+
+.entre {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entre:hover {
+    width: 75px;
+    height: 55px;
+}
+
+.plat {
+    width: 65px;
+    height: 45px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plat:hover {
+    width: 75px;
+    height: 55px;
+    border: 1px solid black;
+    border-left: none;
+}
+.dessert {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dessert:hover {
+    width: 75px;
+    height: 55px;
+}
+.menu {
+    position: fixed;
+    padding-top: 80px;
+}
+
+.contenu-entre {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.pad-bot {
+    padding-bottom: 100px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+}
+
+.pad-top {
+    padding-top: 50px;
+}
+
+.pad-h2 {
+    padding-bottom: 40px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.pad-ico-right {
+    padding-right: 50px;
+}
+
+.pad-ico-left {
+    padding-left: 50px;
+}
+
+.size {
+    height: 768px;
+}
+
+.pad-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.pad-right {
+    padding-right: 50px;
+}

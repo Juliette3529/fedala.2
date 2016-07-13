@@ -1,0 +1,51 @@
+.img-container {
+	position: relative;
+}
+
+.img-left-background,
+.img-center-background,
+.img-right-background {
+	position: absolute;
+	z-index: -1;
+	min-height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 2s;
+}
+
+.img-left-background {
+	background-image: url(img/traiteur-1.jpeg);
+}
+
+.img-center-background {
+	background-image: url(img/accueil4.jpg);
+}
+
+.img-right-background {
+	background-image: url(img/img-1.jpeg);
+}
+
+.img-foreground {
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.entre {
+    width: 80%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+/*
+.centrage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/

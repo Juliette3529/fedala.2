@@ -1,0 +1,99 @@
+.space {
+  height: 80px;
+}
+
+.space-pink {
+  background-color: #e8b3e9;
+}
+
+#onglets {
+  font : bold 19px "Lora";
+  list-style-type : none;
+  margin-left : 0;
+  margin-bottom: 0;
+}
+
+#onglets > li {
+  float : left;
+  height : 55px;
+  background-color: rgba(138, 129, 175, 0.7);
+  margin : 2px 15px 0 2px !important;
+  border : 1px solid #9EA0A1;
+  border-bottom-style: none;
+  width: 250px;
+}
+
+#onglets > li > ul > li {
+  background-color: rgba(138, 129, 175, 0.7);
+}
+
+#onglets > li > ul > li > a {
+  font-weight: 600;
+  height: 40px;
+  padding-top: 10px;
+}
+
+#onglets > li > ul > li > a:hover {
+  background-color: #e8b3e9;
+  color: rgb(138, 129, 175);
+}
+
+.nav .open > a {
+  background-color: rgba(138, 129, 175, 0.7) !important;
+}
+
+#onglets li.active {
+  border-bottom-style: none;
+  background-color: #e8b3e9;
+}
+
+#onglets a {
+  display : block;
+  color : #ffffff;
+  text-decoration : none;
+  transition: all 0.30s;
+  text-align: center;
+  height: 55px;
+}
+
+#onglets a:hover {
+  background-color: rgba(138, 129, 175, 0.7);
+  border-bottom-style: none !important;
+  border-bottom-color: #e8b3e9;
+}
+
+.navbar-nav > li > .dropdown-menu {
+background-color: #cc90ce;
+text-align: center;
+margin-left: -1px;
+width: 250px;
+border-radius: 0;
+}
+
+.content {
+  height: 200px;
+  padding: 100px 0;
+}
+
+header {
+  height: 275px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/header-location.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic {
+  width: 250px;
+  height: 200px;
+}
+
+.flex {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
