@@ -1,9 +1,9 @@
 .space {
-  height: 80px;
+  height: 20px;
 }
 
 .space-pink {
-  background-color: #e8b3e9;
+  background-color: #ADA6C7;
 }
 
 #onglets {
@@ -76,8 +76,7 @@ border-radius: 0;
 }
 
 header {
-  height: 275px;
-  padding-bottom: 130px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;

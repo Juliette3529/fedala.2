@@ -17,14 +17,19 @@
     margin-top:50px;
 }
 .partenaire{
-    border:2px solid #ADA6C7;
     height: 400px;
     margin-top: 25px;
     font-size:20px;
-    margin-left:75px;
     
 }
 .partenaire h4{
     font-size: 25px;
     text-decoration: underline;
+}
+h4{
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+h2{
+    margin-bottom:50px;
 }
