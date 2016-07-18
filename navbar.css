@@ -22,7 +22,7 @@
 .navbar-default,
 .navbar-default .navbar-header .navbar-brand,
 .navbar-default .nav > li > a:hover {
-	transition: all 2.0s;
+	transition: all 0.30s;
 }
 
 .navbar-default {

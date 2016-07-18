@@ -137,7 +137,7 @@ h3 {
 p {
 	font-family: "Roboto";
 	font-size: 15px;
-  color: #272727;
+  color: #5A5E6B;
   /*font-style: italic;*/
 }
 
@@ -208,7 +208,7 @@ p {
   margin: auto;
   text-align: center;
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Great Vibes';
   font-size: 40px;
 /*  font-weight: bold;*/
 }
@@ -216,9 +216,9 @@ p {
 .carous-text-name {
   margin: auto;
   text-align: center;
-  color: white;
+  color: #EDEDED;
   font-family: 'Roboto';
-  font-size: 25px;
+  font-size: 20px;
 /*  font-weight: bold;*/
 }
 
