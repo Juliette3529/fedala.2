@@ -42,7 +42,7 @@ header {
      background-size: cover;
 }
 .trait{
-    color:#2727;
+    color:white;
     background-color:#ff3f34;
     height:100px;
     margin-top:220px;
@@ -123,21 +123,22 @@ h2 {
 }
 
 h3 {
-  font-size: 70px;
+  color: #272727;
+  font-size: 35px;
   width: 550px;
 }
 
 .well-h3 {
-  background-color: #cc90ce;
+  background-color: white;
   padding: 15px 0;
   text-align: center;
 }
 
 p {
-	font-family: "Lora";
+	font-family: "Roboto";
 	font-size: 15px;
-  color: #333333;
-  font-style: italic;
+  color: #272727;
+  /*font-style: italic;*/
 }
 
 .bg-default h1 {
@@ -166,7 +167,7 @@ p {
   height: 445px;
   padding-right: 15px;
   padding-top: 15px;
-  background-color: #cc90ce;
+  /*background-color: #cc90ce;*/
   margin-top: -55px;
 }
 
@@ -206,17 +207,19 @@ p {
 .carous-text {
   margin: auto;
   text-align: center;
-  color: #e8b3e9;
-  font-size: 50px;
-  font-weight: bold;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+/*  font-weight: bold;*/
 }
 
 .carous-text-name {
   margin: auto;
   text-align: center;
-  color: #e8b3e9;
-  font-size: 50px;
-  font-weight: bold;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+/*  font-weight: bold;*/
 }
 
 .carous-inner2 {
