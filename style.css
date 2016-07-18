@@ -1,6 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Philosopher);
+/*@import url(https://fonts.googleapis.com/css?family=Philosopher);
 @import url(https://fonts.googleapis.com/css?family=Lora);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
 body {
 	width: 100%;
@@ -9,7 +11,7 @@ body {
 }
 
 * {
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Great Vibes', sans-serif;
 }
 
 .fullwidth {

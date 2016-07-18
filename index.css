@@ -1,13 +1,28 @@
+/*Couleur*/
+/*
+
+#1
+
+/*backgroud #FFF;
+/*hover/block: #ff3f34;
+/*texte: #8a8c90;
+/*H1:#000; #2727;
+
+#2
+
+/*background: #FFF;
+/*hover/block: #F5cba7;/#
+
 /*Header Main*/
 
 header {
-  height: 700px;
+  height: 600px;
 }
 .navtruc{
     height:80px;
 }
 .space {
-  height: 90px;
+  height: 70px;
   background-color: #FFF;
 }
 
@@ -27,14 +42,16 @@ header {
      background-size: cover;
 }
 .trait{
-    color:white;
-    background-color:#ADA6C7;
+    color:#2727;
+    background-color:#ff3f34;
     height:100px;
     margin-top:220px;
     padding-top:20px;
     width:auto;
-    opacity:0.9;
-    
+    opacity:0.9;   
+}
+.hover:hover{
+background: #F5cba7;
 }
 .trait h5{
     font-size:35px;
@@ -54,7 +71,7 @@ header {
 
 .bg-primary {
 	padding: 50px 0;
-	background-color: #e8b3e9;
+	background-color: white;
 }
 
 .parallax-window {
