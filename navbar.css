@@ -51,7 +51,9 @@
 }
 
 .nav-middle {
-	padding: 0 0 0 5%;
+	margin-left: 127px;
+	/*padding-left: 65px;*/
+	/*padding: 0 0 0 5%;*/
 }
 
 .navbar-right {
