@@ -2,14 +2,14 @@
 
 .navbar-default,
 .navbar-default.scroll {
-	background-color: rgba(138, 129, 175, 0.7);
+/*	background-color: rgba(138, 129, 175, 0.7);*/
 }
 
 .navbar-default .navbar-header .navbar-brand,
 .navbar-default .navbar-header .navbar-brand.scroll,
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a.scroll {
-	color: #FFF;
+/*	color: #FFF;*/
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -22,7 +22,7 @@
 .navbar-default,
 .navbar-default .navbar-header .navbar-brand,
 .navbar-default .nav > li > a:hover {
-	transition: all 0.50s;
+	transition: all 2.0s;
 }
 
 .navbar-default {
@@ -31,12 +31,14 @@
 }
 
 .navbar-default.scroll {
+	background-color: white;
 	padding: 0;
 }
 
 .navbar-default .navbar-header .navbar-brand {
-	font-weight: 700;
+/*	font-weight: 700;*/
 	font-size: 30px;
+	color: #ff3f34;
 }
 
 .navbar-default .navbar-header .navbar-brand.scroll {
