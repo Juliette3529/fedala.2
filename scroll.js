@@ -32,14 +32,14 @@ $(document).ready(function() {
     });
     $('h1').html(html);
 });
-$(document).ready(function() {
+/*$(document).ready(function() {
     var words = $('.navbar-brand').text().split(' ');
     var html = '';
     $.each(words, function() {
         html += '<span style="font-size:45px">'+this.substring(0,1)+'</span>'+this.substring(1) + ' ';
     });
     $('.navbar-brand').html(html);
-});
+});*/
 
 // fonctions de gestion du flou des images (traiteur-1.html)
 function addBlur(target) {

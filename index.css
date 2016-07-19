@@ -15,9 +15,9 @@
 
 /*Header Main*/
 
-header {
+/*header {
   height: 600px;
-}
+}*/
 .navtruc{
     height:80px;
 }
@@ -26,7 +26,7 @@ header {
   background-color: #FFF;
 }
 
-.decoration{
+/*.decoration{
     height: 700px;
     background-image:url(img/deco.jpg);
      background-size: cover;
@@ -40,7 +40,54 @@ header {
     height: 700px;
     background-image:url(img/header-location.jpg);
      background-size: cover;
+}*/
+
+/*Paramètre images des services*/
+
+.img-left-background {
+	background-image: url(img/deco.jpg);
 }
+
+.img-center-background {
+	background-image: url(img/img10.jpg);
+}
+
+.img-right-background {
+	background-image: url(img/header-location.jpg);
+}
+
+.img-left-background,
+.img-center-background,
+.img-right-background {
+	position: absolute;
+	z-index: -1;
+	min-height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 2s;
+}
+
+.img-foreground {
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.font_title{
+    font-family: 'Roboto';
+}
+.entre {
+    width: 80%;
+    height: 70px;
+    background-color: rgba(255, 63, 52, 0.40);/*rgba(0,0,0,0.65);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+/* fin */
 .trait{
     color:white;
     background-color:#ff3f34;
