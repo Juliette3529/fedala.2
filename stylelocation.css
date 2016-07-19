@@ -3,7 +3,7 @@
 }
 
 .space-pink {
-  background-color: #ADA6C7;
+  background-color: darkred;
 }
 
 #onglets {
@@ -16,15 +16,14 @@
 #onglets > li {
   float : left;
   height : 55px;
-  background-color: rgba(138, 129, 175, 0.7);
+  background-color: rgba(163, 101, 69, 0.7);
   margin : 2px 15px 0 2px !important;
-  border : 1px solid #9EA0A1;
   border-bottom-style: none;
   width: 250px;
 }
 
 #onglets > li > ul > li {
-  background-color: rgba(138, 129, 175, 0.7);
+  background-color: rgba(163, 101, 69, 0.7);
 }
 
 #onglets > li > ul > li > a {
@@ -35,7 +34,7 @@
 
 #onglets > li > ul > li > a:hover {
   background-color: #e8b3e9;
-  color: rgb(138, 129, 175);
+  color: rgba(163, 101, 69, 0.7);
 }
 
 .nav .open > a {
@@ -57,9 +56,9 @@
 }
 
 #onglets a:hover {
-  background-color: rgba(138, 129, 175, 0.7);
+  background-color: rgba(163, 101, 69, 0.7);
   border-bottom-style: none !important;
-  border-bottom-color: #e8b3e9;
+  border-bottom-color: orangered;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -71,19 +70,17 @@ border-radius: 0;
 }
 
 .content {
-  height: 200px;
-  padding: 100px 0;
+  height: 400px;
 }
 
 header {
-  height: 380px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/contact-bg.jpg);
+  background-image: url(img/carous.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 .pic {
@@ -95,4 +92,24 @@ header {
   display: none;
   justify-content: center;
   align-items: center;
+}
+.nopadding{
+    padding:0px;
+}
+.img{
+    margin-top:50px;
+    height:350px;
+    padding:0px;
+}
+.deux{
+    background-image:url(img/16.jpg);
+    background-size:cover;
+}
+.trois{
+    background-image:url(img/19.jpg);
+    background-size:cover;
+}
+.quatre{
+    background-image:url(img/17.jpg);
+    background-size:cover;
 }
