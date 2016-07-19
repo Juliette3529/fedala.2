@@ -71,6 +71,10 @@ border-radius: 0;
 
 .content {
   height: 400px;
+    background-image:url(img/16.jpg) , url(img/19.jpg) , url(img/17.jpg);
+    background-position: 40% 25%, 50% 25%, 60% 25%;
+    background-size: 50px 50px ;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -93,23 +97,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-.nopadding{
-    padding:0px;
-}
-.img{
-    margin-top:50px;
-    height:350px;
-    padding:0px;
-}
-.deux{
-    background-image:url(img/16.jpg);
-    background-size:cover;
-}
-.trois{
-    background-image:url(img/19.jpg);
-    background-size:cover;
-}
-.quatre{
-    background-image:url(img/17.jpg);
-    background-size:cover;
+.block_texte p{
+    padding-top:15%;
 }
