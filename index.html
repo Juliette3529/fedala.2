@@ -27,142 +27,168 @@
 
 <body class="container-fluid nopad">
     <!-- barre de navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Fedala Déco Traiteur</a>
-        </div>
-        <div class="collapse navbar-collapse" id="MenuNavbar">
-            <ul class="nav navbar-nav nav-middle">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="traiteur-1.html">Traiteur</a></li>
-                <li><a href="#">Evènements</a></li>
-                <li><a href="location.html">Locations</a></li>
-                <li><a href="contact.html">Contacter</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Se Connecter</a></li>
-                <li><a href="#">S’enregistrer</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="col-md-12 navtruc"></div>
-    <header class="col-md-12 nopadding">
-        <div class="col-md-4 decoration">
-            <div class="col-md-offset-3 col-md-4 text-center trait hover">
-                <h5> Décoration </h5>
+    <header class="row">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Fedala Déco Traiteur</a>
             </div>
-
-        </div>
-        <div class="col-md-4 traiteur">
-            <div class="col-md-offset-3 col-md-4 text-center trait">
-                <h5> Traiteur </h5>
+            <div class="collapse navbar-collapse" id="MenuNavbar">
+                <ul class="nav navbar-nav nav-middle">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="traiteur-1.html">Traiteur</a></li>
+                    <li><a href="#">Evènements</a></li>
+                    <li><a href="location.html">Locations</a></li>
+                    <li><a href="contact.html">Contacter</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Se Connecter</a></li>
+                    <li><a href="#">S’enregistrer</a></li>
+                </ul>
             </div>
-        </div>
-        <div class="col-md-4 location">
-            <div class="col-md-offset-3 col-md-4 text-center trait">
-                <h5> Location </h5>
-            </div>
-        </div>
+        </nav>
     </header>
+   <!-- container-->
+<!--    à rebâtir-->
+    
+    <!--<div class="row">
+        <div class="col-md-12 navtruc"></div>
+        <header class="col-md-12 nopadding">
+            <div class="col-md-4 decoration">
+                <div class="col-md-offset-3 col-md-4 text-center trait hover">
+                    <h5> Décoration </h5>
+                </div>
 
-    <section class="space fullwidth"></section>
+            </div>
+            <div class="col-md-4 traiteur">
+                <div class="col-md-offset-3 col-md-4 text-center trait">
+                    <h5> Traiteur </h5>
+                </div>
+            </div>
+            <div class="col-md-4 location">
+                <div class="col-md-offset-3 col-md-4 text-center trait">
+                    <h5> Location </h5>
+                </div>
+            </div>
+-->
+<!--En construction en haut-->
+        <div class="row">
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-left" class="img-left-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-left')" onmouseout="remBlur('img-left')">
+						<div class="font_title entre color-white">Décoration</div>
+					</div>
+				</div>
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-center" class="img-center-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-center')" onmouseout="remBlur('img-center')">
+						<div class="entre color-white">Traiteur</div>
+					</div>
+				</div>
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-right" class="img-right-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-right')" onmouseout="remBlur('img-right')">
+						<div class="entre color-white">Location</div>
+					</div>
+				</div>
+			</div>
+        <section class="space fullwidth"></section>
 
-    <section class="bg-primary text-center">
-        <div class="mid-text">
-            <h1 class="color-white text-center">Qui sommes nous?</h1>
-            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
-        </div>
-    </section>
-
-    <section class="parallax-window" data-parallax="scroll" data-image-src="img/header4.jpg">
-
-    </section>
-
-
-    <section class="bg-primary">
-        <h3 class="well-h3">Nos Services</h3>
-        <div class="container">
-            <div class="about left">
-                <!-- <h2 class="color-white">Lorem Lorem Lorem</h2> -->
+        <section class="bg-primary text-center">
+            <div class="mid-text">
+                <h1 class="color-white text-center">Qui sommes nous?</h1>
                 <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
             </div>
+        </section>
 
-            <div class="container-fluid">
-                <div class="row bloc-img right">
-                    <div class="col-md-6">
-                        <div class="effect right">
-                            <div class="overlay color-white">
-                                <div class="title-hover">Déco</div>
+        <section class="parallax-window" data-parallax="scroll" data-image-src="img/header4.jpg">
+
+        </section>
+
+
+        <section class="bg-primary">
+            <h3 class="well-h3">Nos Services</h3>
+            <div class="container">
+                <div class="about left">
+                    <!-- <h2 class="color-white">Lorem Lorem Lorem</h2> -->
+                    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row bloc-img right">
+                        <div class="col-md-6">
+                            <div class="effect right">
+                                <div class="overlay color-white">
+                                    <div class="title-hover">Déco</div>
+                                </div>
+                                <a href="#"><img src="img/img1.jpg" class="img-responsive pic" alt="img" /></a>
                             </div>
-                            <a href="#"><img src="img/img1.jpg" class="img-responsive pic" alt="img" /></a>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="effect right">
-                            <div class="overlay color-white">
-                                <div class="title-hover">Traiteur</div>
+                        <div class="col-md-6">
+                            <div class="effect right">
+                                <div class="overlay color-white">
+                                    <div class="title-hover">Traiteur</div>
+                                </div>
+                                <a href="#"><img src="img/img3.jpg" class="img-responsive pic" alt="img" /></a>
                             </div>
-                            <a href="#"><img src="img/img3.jpg" class="img-responsive pic" alt="img" /></a>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="effect right">
-                            <div class="overlay color-white">
-                                <div class="title-hover">Evènements</div>
+                        <div class="col-md-6">
+                            <div class="effect right">
+                                <div class="overlay color-white">
+                                    <div class="title-hover">Evènements</div>
+                                </div>
+                                <a href="#"><img src="img/img4.jpg" class="img-responsive pic" alt="img" /></a>
                             </div>
-                            <a href="#"><img src="img/img4.jpg" class="img-responsive pic" alt="img" /></a>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="effect right">
-                            <div class="overlay color-white">
-                                <div class="title-hover">Location</div>
+                        <div class="col-md-6">
+                            <div class="effect right">
+                                <div class="overlay color-white">
+                                    <div class="title-hover">Location</div>
+                                </div>
+                                <a href="#"><img src="img/img2.jpg" class="img-responsive pic" alt="img" /></a>
                             </div>
-                            <a href="#"><img src="img/img2.jpg" class="img-responsive pic" alt="img" /></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="bg-white"></section>
+
+        <footer class="parallax-window" data-parallax="scroll" data-image-src="img/footer.jpg">
+            <div class="container">
+                <div id="myCarousel2" class="carousel slide fullwidth" data-ride="carousel">
+
+                    <div class="carousel-inner carous-inner2" role="listbox">
+                        <div class="item active">
+                            <div class="carous-text">" J'adore ce traiteur. "</div>
+                            <div class="carous-text-name">--Jean michel</div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carous-text">" Il est cool et super sympathique. "</div>
+                            <div class="carous-text-name">--Sfia</div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carous-text">" Elle me doit des cupcakes. "</div>
+                            <div class="carous-text-name">--Juliette</div>
+                        </div>
+                        <div class="item">
+                            <div class="carous-text">" Je kiff sa mere "</div>
+                            <div class="carous-text-name">--Ronald</div>
+                        </div>
+                        <div class="item">
+                          <div class="carous-text">" Leur site est aussi beau qu'est bonne leur cuisine. "</div>
+                          <div class="carous-text-name">--Erwann</div>
+                    </div>
+                    </div>
+        </footer>
         </div>
-    </section>
-
-    <section class="bg-white"></section>
-
-    <footer class="parallax-window" data-parallax="scroll" data-image-src="img/footer.jpg">
-        <div class="container">
-            <div id="myCarousel2" class="carousel slide fullwidth" data-ride="carousel">
-
-                <div class="carousel-inner carous-inner2" role="listbox">
-                    <div class="item active">
-                        <div class="carous-text">" J'adore ce traiteur. "</div>
-                        <div class="carous-text-name">--Jean michel</div>
-                    </div>
-
-                    <div class="item">
-                        <div class="carous-text">" Il est cool et super sympathique. "</div>
-                        <div class="carous-text-name">--Sfia</div>
-                    </div>
-
-                    <div class="item">
-                        <div class="carous-text">" Elle me doit des cupcakes. "</div>
-                        <div class="carous-text-name">--Juliette</div>
-                    </div>
-                    <div class="item">
-                        <div class="carous-text">" Je kiff sa mere "</div>
-                        <div class="carous-text-name">--Ronald</div>
-                    </div>
-                    <div class="item">
-				      <div class="carous-text">" Leur site est aussi beau qu'est bonne leur cuisine. "</div>
-				      <div class="carous-text-name">--Erwann</div>
-				</div>
-                </div>
-    </footer>
-
 
 </body>
 
