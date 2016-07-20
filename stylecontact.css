@@ -1,4 +1,11 @@
 /* formulaire de contact - image de fond */
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+#label{
+    font-family: 'Roboto', sans-serif;
+}
 .block_1{
     margin-top:80px;
     background-color:white;
