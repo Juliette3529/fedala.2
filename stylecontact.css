@@ -3,8 +3,32 @@
 h4{
     font-family: 'Roboto', sans-serif;
 }
-#label{
+
+aside > p{
+    font-size: 13px;
+    font-family: 'Roboto' sans-serif;
+}
+
+aside a{
+    color: #272727;
+}
+
+aside a:hover{
+    color:#ff3f34;
+    text-decoration: none;
+}
+
+label{
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.rebel{
+    background-color: color: red;
+    padding-left: 20px;
+}
+
+.checkbox input{
+    margin-top:0;
 }
 .block_1{
     margin-top:80px;
