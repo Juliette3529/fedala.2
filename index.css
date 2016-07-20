@@ -272,3 +272,9 @@ p {
 .carous-inner2 {
   height: 200px;
 }
+.block_2{
+    background-image:url(img/img-1.jpeg);
+    height:350px;
+    background-size:cover;
+    margin-top:20px;
+}
