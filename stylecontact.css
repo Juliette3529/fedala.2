@@ -27,9 +27,11 @@ label{
     padding-left: 20px;
 }
 
+/*
 .checkbox input{
     margin-top:0;
 }
+*/
 .block_1{
     margin-top:80px;
     background-color:white;
@@ -48,8 +50,7 @@ label{
     margin-top:50px;
 }
 .partenaire{
-    height: 400px;
-    margin-top: 25px;
+
     font-size:20px;
 }
 .partenaire h4{
@@ -63,11 +64,15 @@ h4{
 h2{
     margin-bottom:50px;
 }
+/*
 .presta .checkbox{
     display:inline-block;
     margin-right: 70px;
 }
+*/
+/*
 .type .checkbox{
     display: inline-block;
     margin-right:50px;
 }
+*/
