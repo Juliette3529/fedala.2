@@ -3,9 +3,35 @@
 h4{
     font-family: 'Roboto', sans-serif;
 }
-#label{
-    font-family: 'Roboto', sans-serif;
+
+aside > p{
+    font-size: 13px;
+    font-family: 'Roboto' sans-serif;
 }
+
+aside a{
+    color: #272727;
+}
+
+aside a:hover{
+    color:#ff3f34;
+    text-decoration: none;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.rebel{
+    background-color: color: red;
+    padding-left: 20px;
+}
+
+/*
+.checkbox input{
+    margin-top:0;
+}
+*/
 .block_1{
     margin-top:80px;
     background-color:white;
@@ -24,8 +50,7 @@ h4{
     margin-top:50px;
 }
 .partenaire{
-    height: 400px;
-    margin-top: 25px;
+
     font-size:20px;
 }
 .partenaire h4{
@@ -39,14 +64,15 @@ h4{
 h2{
     margin-bottom:50px;
 }
+/*
 .presta .checkbox{
     display:inline-block;
     margin-right: 70px;
 }
+*/
+/*
 .type .checkbox{
     display: inline-block;
     margin-right:50px;
 }
-.checkbox input{
-    margin-top:0px;
-}
+*/
