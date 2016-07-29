@@ -57,14 +57,41 @@ ul{;
 
 /***********************Evenement-Page***************************/
 .navigation{
-    text-decoration: none;
-
     z-index: 1;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 0;
 }
 
+.navigation li a{
+    width: 100%;
+    display: block;
+    padding: 5px 30px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation{
+    margin: 0 auto;
+    padding: 0;
+    background-color:#F5cba7;
+}
+
+.navigation a:hover{
+    background-color: #ff3f34;
+    color: white;
+}
+.nav-stacked li{
+    margin-top: 0px;
+}
+.nav-pills > li > a{
+    border-radius: 0px;
+
+}
 /********************Section Blocks Evens************************/
 
 .default_block{
