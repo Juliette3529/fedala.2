@@ -84,6 +84,13 @@ ul{;
 .navigation a:hover{
     background-color: #ff3f34;
     color: white;
+     overflow: hidden;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-property: background;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
 }
 .nav-stacked li{
     margin-top: 0px;
