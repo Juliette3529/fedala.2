@@ -17,7 +17,9 @@ body {
 h1, h2, h3, h4, h5{
     font-family: 'Great Vibes', sans-serif;
 }
-
+ul{;
+    list-style: none;
+}
 .fullwidth {
 	width: 100%;
 }
@@ -49,4 +51,24 @@ h1, h2, h3, h4, h5{
 
 .color-white {
 	color: #FFF
+}
+
+
+
+/***********************Evenement-Page***************************/
+.navigation{
+    text-decoration: none;
+
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+/********************Section Blocks Evens************************/
+
+.default_block{
+    display: block;
+    height: 500px;
+    width: auto;
 }
