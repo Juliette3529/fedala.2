@@ -1,0 +1,25 @@
+.top {
+    margin-top: 150px;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+.hori {
+    margin-top: 25%;
+}
+
+h2 {
+    margin-bottom: 4%;
+    font-size: 55px;
+}
+.nopad{
+    padding:0px;
+    margin-right:0px;
+    margin-left:0px;
+}
+.bg{
+    background-color:#F5cba7;
+    padding: 50px 0px;
+}

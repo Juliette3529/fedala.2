@@ -87,6 +87,9 @@
     font-size: 30px;
     font-family: monospace;
 }
+.entre a{
+    color:beige;
+}
 /* fin */
 .trait{
     color:white;
