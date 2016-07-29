@@ -38,7 +38,7 @@
 }
 
 .nav .open > a {
-  background-color: rgba(138, 129, 175, 0.7) !important;
+  background-color: brown!important;
 }
 
 #onglets li.active {
@@ -62,7 +62,6 @@
 }
 
 .navbar-nav > li > .dropdown-menu {
-background-color: #cc90ce;
 text-align: center;
 margin-left: -1px;
 width: 250px;
