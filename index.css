@@ -281,3 +281,6 @@ p {
     background-size:cover;
     margin-top:20px;
 }
+.title-hover a{
+    color:beige;
+}
