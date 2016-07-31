@@ -54,13 +54,20 @@ ul{;
 }
 
 
-
+/****/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    background: transparent;
+    color:#ff3f34;
+}
 /***********************Evenement-Page***************************/
 .navigation{
     z-index: 1;
     position: fixed;
     top: 45%;
     left: 0;
+    width: 12%;
 }
 
 .navigation li a{
@@ -78,21 +85,31 @@ ul{;
 .navigation{
     margin: 0 auto;
     padding: 0;
-    background-color:#F5cba7;
+    border-radius: 0 3px 3px 0;
+    background-color:rgba(0, 0, 0, 0.6);
 }
 
+/*
+.nav-pills > li.active > a, .nav > li.active > a{
+    background-color: #E8BA93;
+}
+*/
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover{
+    background-color: #E8BA93;
+}
 .navigation a:hover{
     background-color: #ff3f34;
     color: white;
-     overflow: hidden;
   -webkit-transition-property: background;
-  -webkit-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.8s;
   -webkit-transition-timing-function: ease-out;
   transition-property: background;
-  transition-duration: 0.4s;
+  transition-duration: 0.8s;
   transition-timing-function: ease-out;
 }
-.nav-stacked li{
+.navigation li, .nav-stacked > li+li{
     margin-top: 0px;
 }
 .nav-pills > li > a{
@@ -101,8 +118,66 @@ ul{;
 }
 /********************Section Blocks Evens************************/
 
+.block_gallery{
+    margin-top: 210px;
+}
 .default_block{
+
+
+    padding-top: 30px;
+/*
     display: block;
-    height: 500px;
+    height: auto;
     width: auto;
+*/
+}
+.fullheight{
+    height:100vh;
+}
+#mariage{
+/*
+    background: url(img/banquet-de-mariage.jpg) no-repeat center;
+    background-size: cover;
+*/
+}
+#cocktail{
+    background-color: #FFFFFF;
+}
+.portfolio li{
+    padding: 0px;
+}
+
+.portfolio .full{
+     float: left;
+    padding: 0;
+    width: 33%;
+    display: inline-block;
+}
+.portfolio li{
+    height: auto;
+    width: 33%;
+}
+.portfolio-title{
+/*    font-family: 'Roboto', sans-serif;*/
+    font-size: 40px;
+    font-weight: 200!important;
+    color: #333;
+}
+.portfolio p{
+    margin-bottom: 80px;
+}
+
+.top{
+    height: 25vh;
+    width: 100%;
+    background-color: brown;}
+.middle{
+    height: 50vh;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+.bottom{
+    height: 25vh;
+    width: 100%;
+    background-color: brown;
 }
