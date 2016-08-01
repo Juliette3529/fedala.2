@@ -23,7 +23,6 @@ $("#mob").click(function () {
     $('.serv').css("display", "none");
     $('.mob').css("display", "block");
 });
-});
 
 ///Active
 $(".navigation a, nav-middle a").on("click", function(){
@@ -34,3 +33,6 @@ $(".nav-middle a").on("click", function(){
         $(".nav-middle a").find(".active").removeClass("active");
         $(this).parent().addClass("active");
 });
+
+});
+
