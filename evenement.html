@@ -20,6 +20,7 @@
     <script src="parallax/parallax.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="scroll.js"></script>
+    <script type="text/javascript" src="scriptloc.js"></script>
 
     <title>Fédala Déco Traiteur</title>
 
@@ -57,16 +58,16 @@
     <div class="container-fluid">
 <!--Sidebar Navigation -->
         <ul class="navigation nav-pills nav-stacked col-md-2">
-           <li class=""><a href="#mariage">mariage</a></li>
-           <li class=""><a href="#bapteme">baptême</a></li>
-           <li class=""><a href="#cocktail">cocktails</a></li>
-           <li class=""><a href="#potdedepart">départ en retraite</a></li>
-           <li class=""><a href="#anniversaire">anniversaire</a></li>
-           <li class=""><a href="#reception">reception</a></li>
+           <li class="first"><a id="item1" class="first" href="#mariage">mariage</a></li>
+           <li class=""><a id="item2" href="#bapteme">baptême</a></li>
+           <li class=""><a id="item3" href="#cocktail">cocktails</a></li>
+           <li class=""><a id="item4" href="#potdedepart">départ en retraite</a></li>
+           <li class=""><a id="item5" href="#anniversaire">anniversaire</a></li>
+           <li class="last"><a id="item6" class="last" href="#reception">reception</a></li>
        </ul>
 <!-- Fin -->
 
-        <section id="mariage"class="row default_block fullheight">
+        <section id="mariage"class="mar row default_block fullheight">
             <div class="container portfolio">
 
                <div class="col-md-12 block_gallery">
@@ -86,7 +87,7 @@
             </div>
         </section>
 
-        <section id="bapteme"class="row default_block fullheight">
+        <section id="bapteme"class="bap row default_block fullheight">
             <div class="container portfolio">
 
                <div class="col-md-12 block_gallery">
@@ -106,7 +107,7 @@
             </div>
         </section>
 
-        <section id="cocktail"class="row default_block fullheight">
+        <section id="cocktail"class="coc row default_block fullheight">
             <div class="container portfolio">
 
                <div class="col-md-12 block_gallery">
@@ -126,7 +127,7 @@
             </div>
         </section>
 
-        <section id="potdedepart"class="row default_block fullheight">
+        <section id="potdedepart"class="pot row default_block fullheight">
             <div class="container portfolio">
 
                <div class="col-md-12 block_gallery">
@@ -146,7 +147,7 @@
             </div>
         </section>
 
-        <section id="anniversaire"class="row default_block fullheight">
+        <section id="anniversaire"class="ann row default_block fullheight">
             <div class="container portfolio">
 
                <div class="col-md-12 block_gallery">
@@ -166,7 +167,7 @@
             </div>
         </section>
 
-        <section id="reception"class="row  default_block fullheight">
+        <section id="reception"class="rec row default_block fullheight">
             <div class="container portfolio">
 
                <div class="col-md-11  col-md-offset-1 block_gallery">
@@ -189,16 +190,7 @@
         </div>
            <footer>
         </footer>
-    <script>
-        $(".navigation a, nav-middle a").on("click", function(){
-                $(".navigation, nav-middle a").find(".active").removeClass("active");
-                $(this).parent().addClass("active");
-        });
-        $(".nav-middle a").on("click", function(){
-                $(".nav-middle a").find(".active").removeClass("active");
-                $(this).parent().addClass("active");
-        });
-    </script>
+
 </body>
 
 </html>

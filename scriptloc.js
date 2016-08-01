@@ -25,15 +25,7 @@ $("#mob").click(function () {
 });
 
 ///PAGE EVENEMENT
-$("#mariage").click(function (){
-    $('.bap').css("display", "none");
-    $('.coc').css("display", "none");
-    $('.pot').css("display", "none");
-    $('.ann').css("display", "none");
-    $('.rec').css("display", "none");
-    $('#mar').css("display", "block");
-});
-$("#bapteme").click(function (){
+$("#item1").click(function (){
     $('.bap').css("display", "none");
     $('.coc').css("display", "none");
     $('.pot').css("display", "none");
@@ -41,7 +33,15 @@ $("#bapteme").click(function (){
     $('.rec').css("display", "none");
     $('.mar').css("display", "block");
 });
-$("#cocktail").click(function (){
+$("#item2").click(function (){
+    $('.mar').css("display", "none");
+    $('.coc').css("display", "none");
+    $('.pot').css("display", "none");
+    $('.ann').css("display", "none");
+    $('.rec').css("display", "none");
+    $('.bap').css("display", "block");
+});
+$("#item3").click(function (){
     $('.bap').css("display", "none");
     $('.mar').css("display", "none");
     $('.pot').css("display", "none");
@@ -49,7 +49,7 @@ $("#cocktail").click(function (){
     $('.rec').css("display", "none");
     $('.coc').css("display", "block");
 });
-$("#potdedepart").click(function (){
+$("#item4").click(function (){
     $('.bap').css("display", "none");
     $('.coc').css("display", "none");
     $('.mar').css("display", "none");
@@ -57,7 +57,7 @@ $("#potdedepart").click(function (){
     $('.rec').css("display", "none");
     $('.pot').css("display", "block");
 });
-$("#anniversaire").click(function (){
+$("#item5").click(function (){
     $('.bap').css("display", "none");
     $('.coc').css("display", "none");
     $('.pot').css("display", "none");
@@ -65,7 +65,7 @@ $("#anniversaire").click(function (){
     $('.rec').css("display", "none");
     $('.ann').css("display", "block");
 });
-$("#reception").click(function (){
+$("#item6").click(function (){
     $('.bap').css("display", "none");
     $('.coc').css("display", "none");
     $('.pot').css("display", "none");
