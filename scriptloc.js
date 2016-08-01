@@ -25,5 +25,12 @@ $("#mob").click(function () {
 });
 });
 
-
-
+///Active
+$(".navigation a, nav-middle a").on("click", function(){
+        $(".navigation, nav-middle a").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+        });
+$(".nav-middle a").on("click", function(){
+        $(".nav-middle a").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+});
